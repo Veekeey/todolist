@@ -1,0 +1,105 @@
+body {
+  background-color: #0A154D;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+}
+
+.btns {
+  margin-top: 3rem;
+}
+
+.btn, .main button {
+  width: 15rem;
+  height: 50px;
+  margin-right: 3rem;
+  font-size: 1.5rem;
+  background-color: #145B9B;
+  color: #fff;
+  border-radius: 5px;
+}
+h1 {
+  font-size: 3rem;
+  letter-spacing: 5px;
+  font-weight: 900;
+  margin-left: 7rem;
+  color: #fff;
+}
+
+
+/* sign up and login page */
+
+input {
+  width: 80%;
+  height: 50px;
+  margin-bottom: 1.5rem;
+  font-size: 18px;
+  border-radius: 5px;
+  border: 1px solid #145B9B;
+  padding-left: 1rem;
+}
+
+.agreement {
+  display: flex;
+}
+#agree {
+  width: 25px;
+  height: 25px;
+  background-color: #000;
+}
+
+p {
+  font-size: 18px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+label {
+  font-size: 1.5rem;
+  margin-bottom: .5rem;
+}
+
+.main button:not(.agreement button) {
+  width: 83%;
+  background-color: #145B9B;
+  margin-top: 2rem;
+  border: 1px solid #fff;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  transform: translate(50%, 0);
+  width: 40%;
+  margin-top: 9rem;
+  background-color: #fff;
+  padding-bottom: 4rem;
+  padding-left: 8rem;
+  padding-top: 4rem;
+  border-radius: 10px;
+}
+
+
+/* dashboard */
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+.nav button {
+  width: 100px;
+  height: 50px;
+  font-size: 18px;
+}
