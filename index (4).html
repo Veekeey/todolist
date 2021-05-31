@@ -4,25 +4,33 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Dashboard</title>
   <link rel="stylesheet" href="todo.css">
 </head>
 <body>
-  <div class="contain">
-    <div class="nav">
-      <h1>Welcome User!</h1>
-      <button class="logout">Logout</button>
-    </div>
-    <div class="side-bar">
-      <h2>List created</h2>
-      <ol>
-        <li>Daily task</li>
-        <li>Daily task</li>
-        <li>Daily task</li>
-        <li>Daily task</li>
-      </ol>
+  <div class="nain">
+    <nav>
+      <h1>Welcome user!</h1>
+      <button class="btn">Logout</button>
+    </nav>
+    <button class="btn create">Create new list</button>
+    <div class="main-body">
+      <div class="list-created">
+        <div class="created-list">
+          <h1>List created</h1>
+          <ol class="ordered-list-created">
+            <li>morning routine</li>
+            <li>morning routine</li>
+            <li>morning routine</li>
+          </ol>
+        </div>
+      </div>
+      <div class="create-list">
+        <input type="text" name="todo" id="input-todo">
+        <button class="btn add">Add</button>
+        <button class="btn">Save</button>
+      </div>
     </div>
   </div>
-  <script src="todo.js"></script>
 </body>
 </html>

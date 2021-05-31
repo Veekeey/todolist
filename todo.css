@@ -20,7 +20,7 @@ body {
   margin-top: 3rem;
 }
 
-.btn, .main button {
+.btn {
   width: 150px;
   height: 40px;
   margin-right: 3rem;
@@ -37,71 +37,94 @@ h1 {
   color: #fff;
 }
 
+/* Sign up and login pages */
 
-/* sign up and login page */
+.form{
+  width: 40%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  background-color: #145B9B;
+  align-items: center;
+  padding: 20px;
+  margin-top: 10rem;
+}
 
-input {
+.head{
+  text-align: center;
+}
+
+.input{
+  margin-top: 10px;
+  margin-bottom: 3px;
+  height: 50px;
   width: 100%;
-  height: 30px;
-  margin-bottom: 1rem;
-  border-radius: 5px;
-  border: 1px solid #145B9B;
-  padding-left: 5px;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  padding-left: 1rem;
+}
+
+
+label{
+  width: 100%;
+  margin-top: 10px;
+}
+
+.submit {
+  margin-top: 2rem;
+  width: 100%;
+  background-color: #0A154D;
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 18px;
 }
 
 .agreement {
-  display: flex;
-  margin-bottom: -2rem;
-}
-
-#agree {
-  width: 20px;
-  height: 20px;
-  background-color: #000;
-}
-
-p {
-  font-weight: bold;
-  margin-left: 5px;
-}
-
-label {
-  font-size: 20px;
-  margin-bottom: .5rem;
-}
-
-.main button:not(.agreement button) {
-  width: 100%;
-  background-color: #145B9B;
-  margin-top: 2rem;
-  border: 1px solid #fff;
-}
-
-.form {
-  display: flex;
-  flex-direction: column;
-  width: 25%;
-  margin: 0 auto;
-  background-color: #fff;
-  padding: 1rem;
-  border-radius: 10px;
-  margin-top: 5rem;
+ margin-left: -32rem;
+ margin-top: 20px;
 }
 
 
 /* dashboard */
 
-.nav {
+nav {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 1rem;
-  padding-top: 1rem;
+  padding-top: 2rem;
 }
 
-.nav button {
+.create {
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+
+.main-body {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+  padding-top: 3rem;
+  border-top: 1px solid #145B9B;
+}
+.create-list {
+  /* display: none; */
+}
+
+#input-todo {
+  height: 35px;
+  margin-left: 2rem;
+  width: 500px;
+}
+
+.add {
   width: 100px;
-  height: 50px;
-  font-size: 18px;
-  margin-right: 3rem;
-  border-radius: 5px;
+  margin-left: 1rem;
+}
+
+.ordered-list-created {
+  font-size: 1.5rem;
+  margin-top: 20px;
+  color: #145B9B;
+  margin-left: 5rem;
 }

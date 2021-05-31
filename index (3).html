@@ -1,29 +1,29 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="todo.css">
+  <title>signup</title>
+  <link href="todo.css" rel="stylesheet">
 </head>
 <body>
-  <div class="main">
-    <div class="form">
-      <label for="name">First Name</label>
-      <input type="text" name="name" id="fname">
-      <label for="name">Last Name</label>
-      <input type="text" name="name" id="lname">
-      <label for="email">Email</label>
-      <input type="email" name="email" id="email">
-      <label for="password">Password</label>
-      <input type="password" name="" id="">
+  <div class="contain">
+    <form class="form">
+      <h3 class="head">Sign up now!</h3>
+      <label for="fname">FIRST NAME</label>
+      <input type="text" class="input" placeholder="Enter first name">
+      <label for="lname">LAST NAME</label>
+      <input type="text" class="input" placeholder="Enter last name">
+      <label for="email">EMAIL</label>
+      <input type="email" class="input" placeholder="Enter a valid Email">
+      <label for="passwrord">PASSWORD</label>
+      <input type="password" class="input" placeholder="Enter password">
+      <label for="confirm">CONFIRM PASSWORD</label>
+      <input type="password" class="input" placeholder="Confirm password">
       <div class="agreement">
-        <input type="checkbox" name="agree" id="agree">
-        <p>I accept the terms and conditions of service.</p>
+        <input type="checkbox" name="check" id="checkbox">
+        <span>I agree to the Terms and conditions</span>
       </div>
-      <a href="index (2).html"><button type="submit">Sign Up</button></a>
-    </div>
+      <button class="submit">Sign Up</button>
+    </form>
   </div>
+
 </body>
 </html>
