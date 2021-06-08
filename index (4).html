@@ -11,7 +11,7 @@
   <div class="nain">
     <nav>
       <h1>Welcome user!</h1>
-      <button class="btn">Logout</button>
+      <a href="index.html"><button class="btn">Logout</button></a>
     </nav>
     <button class="btn create">Create new list</button>
     <div class="main-body">
@@ -19,18 +19,28 @@
         <div class="created-list">
           <h1>List created</h1>
           <ol class="ordered-list-created">
-            <li>morning routine</li>
-            <li>morning routine</li>
-            <li>morning routine</li>
+            
           </ol>
         </div>
       </div>
-      <div class="create-list">
-        <input type="text" name="todo" id="input-todo">
-        <button class="btn add">Add</button>
-        <button class="btn">Save</button>
+      <div class="creation">
+        <div class="todoTitle">
+          <label for="title" class="title">Title:</label>
+          <input type="text" name="title" id="title">
+          <button class="create-title btn">Create</button>
+        </div>
+        <h1 class="title-heading"></h1>
+        <div class="create-list">
+          <input type="text" name="todo" id="input-todo">
+          <button type="submit" class="btn add">Add</button>
+          <button type="submit" class="btn save">Save</button>
+        </div>
+        <ul class="list-for-creation">
+        </ul>
       </div>
     </div>
   </div>
+
+  <script src="todo.js"></script>
 </body>
 </html>
