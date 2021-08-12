@@ -8,7 +8,6 @@ document.querySelector(".submit").addEventListener("click", (e) =>{
   let email = document.querySelector(".email").value;
   let userPassword = document.querySelector(".input-password").value;
   let confirmPassword = document.querySelector(".confirm-password").value;
-  let checkBox = document.getElementById("checkbox");
 
 
     if(userName === ""){
@@ -30,29 +29,13 @@ document.querySelector(".submit").addEventListener("click", (e) =>{
       alert("Password does not match");
     }
 
-    if(checkBox.checked){
-      alert("go!");
-    }else{
-      alert("check")
-    }
-    
 
-    // window.localStorage.setItem("Name", userName.value);
-    // window.localStorage.setItem("Email", email);
-    // window.localStorage.setItem("password", confirmPassword);
+    window.localStorage.setItem("First name", userName);
+    window.localStorage.setItem("Last name", userLast);
+    window.localStorage.setItem("Email", email);
+    window.localStorage.setItem("password", confirmPassword);
 
-    const users = {
-      FName: userName, 
-      Lname: userLast,
-      Email: email, 
-      password: confirmPassword
-    } 
-     
-
-      JSON.stringify(users);
-      
-      window.localStorage.setItem("users", "{\"First name\": userName\"last name\": userLast}");
-
+    window.location.replace('/index (4).html');
   
 });
 
