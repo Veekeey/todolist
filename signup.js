@@ -1,6 +1,6 @@
 //form validation
 
-document.querySelector(".submit").addEventListener("click", (e) =>{
+document.querySelector(".submit-form").addEventListener("click", (e) =>{
   e.preventDefault();
 
   let userName = document.querySelector(".input-name").value;
